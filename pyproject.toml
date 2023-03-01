@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "repos-test"
+version = "0.1.0"
+description = ""
+authors = ["Pablo Carreira <pablo.carreira@888holdings.com>"]
+readme = "README.md"
+packages = [{include = "repos_test"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
